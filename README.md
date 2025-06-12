@@ -1,34 +1,55 @@
-# Sistema de Segurança Pública
+# 🔍 Segurança em Foco: Painel de Ocorrências Policiais
 
-          
+Este projeto é um painel interativo desenvolvido com **Streamlit** que visa **informar a população**, **apoiar jornalistas** e **auxiliar órgãos de segurança pública** com dados atualizados sobre ocorrências policiais.
+
+## 🎯 Objetivo
+
+Apresentar dados de criminalidade de forma clara e acessível, possibilitando:
+
+- A **exploração de padrões de violência** por ano, bairro, tipo de crime e período da semana;
+- A **identificação de locais com maior incidência de crimes**;
+- A **distribuição de crimes por dia da semana**;
+- O **suporte à tomada de decisão** por parte de órgãos públicos e gestores de segurança.
+
+## 📊 Funcionalidades
+
+- Filtro por ano de ocorrência;
+- Indicadores gerais:
+  - Total de ocorrências;
+  - Bairro mais afetado;
+  - Tipo de crime mais comum;
+- Análise por:
+  - **Dia da semana** com maior número de crimes;
+  - **Subtipo do local da ocorrência** (via pública, residência, comércio, etc.);
+- Visualizações interativas com **Plotly**;
+- Exportação de dados e relatórios em **PDF**.
+
+## 🛠️ Tecnologias e Bibliotecas Utilizadas
 
 
-* [Python](https://spring.io/projects/spring-boot](https://www.python.org/)) - vPython 3.13 <img align="center" alt="mayara-HTML" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" >
+- **[Python](https://www.python.org/)** – linguagem principal  
+- **[Streamlit](https://streamlit.io/)** – criação do painel web  
+- **[Pandas](https://pandas.pydata.org/)** – manipulação de dados  
+- **[Plotly Express](https://plotly.com/python/plotly-express/)** – gráficos interativos  
+- **[ReportLab](https://www.reportlab.com/)** – geração de arquivos PDF  
+- **[SQLAlchemy](https://www.sqlalchemy.org/)** – conexão com banco de dados  
+- **[MySQL](https://www.mysql.com/)** – sistema de gerenciamento do banco de dados utilizado  
+- **[Base64](https://docs.python.org/3/library/base64.html)** – codificação para download  
+- **[Datetime](https://docs.python.org/3/library/datetime.html)** – manipulação de datas  
+- **[os](https://docs.python.org/3/library/os.html)** – manipulação de variáveis de ambiente e arquivos
+
   
-
- 
- 
- ### Regras de negócio:
-- Não é possível alugar um veículo que já esteja reservado
-- Deve ser possível Cadastrar,Remover se não estiver reservado
-- CRUD (Create, Read, Update, Delete)
-
-  
-#### Veículos:
-| Função | Rota | Parametro | Tipo |
-| ------ | ------ | ------ | ------ |
-| Listar Todos | /veiculo | Nenhum | GET
-| Exibir | /buscar/id | ID do Veículo | GET
-| Cadastrar | /criar | JSON do Veículo | POST
-| Editar | /atualizar/id | ID do Veículo | PUT
-| Remover | /deletar/id| ID do Veículo | DELETE
-
-
-#### Efetuar Reserva de Veículo:
-| Função | Rota | Parametro | Tipo |
-| ------ | ------ | ------ | ------ |
-| Listar Todas | /reserva | Nenhum | GET
-| Exibir | reserva| ID da Reserva | GET
-| Cadastrar | /criar| JSON do Reserva | POST
-| Editar | /reserva/id | ID do Reserva | PUT
-| Remover | /cancelar/id_veiculo | ID do Reserva | DELETE
+## 📂 Estrutura do Projeto
+PROJ_DADOS_CRIMINAIS/
+│
+├── app.py # Executa o painel principal
+├── migracaoDados.py # Converte dados Excel e insere no banco
+├── SPDadosCriminais_2024.xlsx # Base de dados SSP (ano 2024)
+├── SPDadosCriminais_2025.xlsx # Base de dados SSP (ano 2025)
+│
+├── database/
+│ └── conexao.py # Script de conexão com o banco
+│
+├── pages/
+│ ├── analise.py # Página de análise geral de dados
+│ └── policia.py # Página com dados voltados aos órgãos públicos
