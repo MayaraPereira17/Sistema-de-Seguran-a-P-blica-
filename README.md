@@ -1,30 +1,22 @@
-# 🔍 Segurança em Foco: Painel de Ocorrências Policiais
+# 🚨 Sistema de Gestão de Segurança Pública  
+## 🔍 Dados que salvam vidas
 
-Este projeto é um painel interativo desenvolvido com **Streamlit** que visa **informar a população**, **apoiar jornalistas** e **auxiliar órgãos de segurança pública** com dados atualizados sobre ocorrências policiais.
+Este projeto foi desenvolvido como parte de um trabalho acadêmico com o objetivo de tornar os dados de ocorrências criminais mais acessíveis, organizados e úteis para a tomada de decisões por parte de governos, sociedade civil, jornalistas e forças de segurança pública.
 
-## 🎯 Objetivo
+---
 
-Apresentar dados de criminalidade de forma clara e acessível, possibilitando:
+## 💡 Objetivo
 
-- A **exploração de padrões de violência** por ano, bairro, tipo de crime e período da semana;
-- A **identificação de locais com maior incidência de crimes**;
-- A **distribuição de crimes por dia da semana**;
-- O **suporte à tomada de decisão** por parte de órgãos públicos e gestores de segurança.
+Criar uma solução tecnológica que permita:
 
-## 📊 Funcionalidades
+- Organizar grandes volumes de dados brutos sobre segurança pública  
+- Tratar e padronizar esses dados para uma base de dados confiável  
+- Visualizar informações por meio de dashboards interativos  
+- Apoiar políticas públicas com dados reais e estruturados  
 
-- Filtro por ano de ocorrência;
-- Indicadores gerais:
-  - Total de ocorrências;
-  - Bairro mais afetado;
-  - Tipo de crime mais comum;
-- Análise por:
-  - **Dia da semana** com maior número de crimes;
-  - **Subtipo do local da ocorrência** (via pública, residência, comércio, etc.);
-- Visualizações interativas com **Plotly**;
-- Exportação de dados e relatórios em **PDF**.
+---
 
-## 🛠️ Tecnologias e Bibliotecas Utilizadas
+## 🧠 Tecnologias Utilizadas
 
 
 - **[Python](https://www.python.org/)** – linguagem principal  
@@ -36,6 +28,56 @@ Apresentar dados de criminalidade de forma clara e acessível, possibilitando:
 - **[MySQL](https://www.mysql.com/)** – sistema de gerenciamento do banco de dados utilizado  
 - **[Base64](https://docs.python.org/3/library/base64.html)** – codificação para download  
 - **[Datetime](https://docs.python.org/3/library/datetime.html)** – manipulação de datas  
-- **[os](https://docs.python.org/3/library/os.html)** – manipulação de variáveis de ambiente e arquivos
+- **[os](https://docs.python.org/3/library/os.html)** – manipulação de variáveis de ambiente e arquivos  
 
 
+---
+
+## 👩‍💻 Etapas Técnicas
+
+### 🗂️ Modelagem
+
+- Criação do DER, MER e Dicionário de Dados  
+- Definição das entidades: Departamento, Seccional, Delegacia, Município, Ocorrência, Localização, Natureza Apurada e Ocorrência_Natureza  
+
+### 🔄 Migração de Dados (Python)
+
+- Leitura dos dados a partir de planilhas Excel   
+- Mapeamento de colunas com padronização de nomes  
+- Tratamento de inconsistências (campos vazios, dados inválidos, coordenadas incorretas)  
+- Inserção otimizada dos dados em lotes no banco MySQL  
+
+### 🔐 Segurança
+
+- Controle de acesso com perfis personalizados:  
+  - Jornalistas  e Sociedade civil  
+  - Orgãos de segurança pública  
+
+---
+
+## 📊 Principais Visualizações no Dashboard
+
+- Número total de ocorrências  
+- Mapa de calor por bairro e município  
+- Dias da semana com maior número de crimes  
+- Tipos de crime por local (via pública, loja, residência etc.)  
+- Categorias criminais mais recorrentes (furto, roubo, lesão corporal…)  
+
+---
+
+## 🤝 Colaboração
+
+Projeto desenvolvido por:
+
+- @Ana Carolina Martins Souza  
+- Bianca Mangueira Porto  
+- Dell Isola Silva  
+- Fernando Matos de Sousa  
+- Gabriel Pereira Cesar  
+- Gustavo Camargo Dantas de Souza  
+- Guilherme Nicacio de Assis Pereira  
+- Matheus Francisco da Silva Barbosa  
+- Mayara Caroline Alves Pereira  
+- Vinicius Peixoto Morais  
+
+---
