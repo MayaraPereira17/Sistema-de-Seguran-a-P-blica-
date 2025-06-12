@@ -1,5 +1,4 @@
 # 🚨 Sistema de Gestão de Segurança Pública  
-## 🔍 Dados que salvam vidas
 
 Este projeto foi desenvolvido como parte de um trabalho acadêmico com o objetivo de tornar os dados de ocorrências criminais mais acessíveis, organizados e úteis para a tomada de decisões por parte de governos, sociedade civil, jornalistas e forças de segurança pública.
 
