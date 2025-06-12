@@ -61,23 +61,24 @@ Criar uma solução tecnológica que permita:
 - Mapa de calor por bairro e município  
 - Dias da semana com maior número de crimes  
 - Tipos de crime por local (via pública, loja, residência etc.)  
-- Categorias criminais mais recorrentes (furto, roubo, lesão corporal…)  
+- Categorias criminais mais recorrentes (furto, roubo, lesão corporal…)
+- Gerar relatórios em PDF simples e detalhados com base nas informações do dashboard.
 
 ---
 
 ## 🤝 Colaboração
 
 Projeto desenvolvido por:
+- [Ana Carolina Martins Souza](https://www.linkedin.com/in/cmanasouza/)
+- [Bianca Mangueira Porto](https://www.linkedin.com/in/bianca-mangueira-porto-7a5903300/)
+- [Davi Dell Isola](https://www.linkedin.com/in/davi-dell-isola-a1482522b/)
+- Fernando Matos de Sousa
+- Gabriel Pereira Cesar
+- [Gustavo Camargo Dantas de Souza](https://www.linkedin.com/in/gustavo-camargo-13a304154/)
+- [Guilherme Nicacio de Assis Pereira](https://www.linkedin.com/in/guilherme-nicacio-65a32a2ba/)
+- [Matheus Francisco da Silva Barbosa](https://www.linkedin.com/in/matheusbarbosa96/)
+- [Mayara Caroline Alves Pereira](https://www.linkedin.com/in/mayaracapereira/)
+- [Vinicius Peixoto Morais](https://linkedin.com/in/vinicius-peixoto)
 
-- @Ana Carolina Martins Souza  
-- Bianca Mangueira Porto  
-- Dell Isola Silva  
-- Fernando Matos de Sousa  
-- Gabriel Pereira Cesar  
-- Gustavo Camargo Dantas de Souza  
-- Guilherme Nicacio de Assis Pereira  
-- Matheus Francisco da Silva Barbosa  
-- Mayara Caroline Alves Pereira  
-- Vinicius Peixoto Morais  
 
 ---
