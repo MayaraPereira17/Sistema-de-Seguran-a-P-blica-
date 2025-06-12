@@ -78,7 +78,7 @@ Projeto desenvolvido por:
 - [Guilherme Nicacio de Assis Pereira](https://www.linkedin.com/in/guilherme-nicacio-65a32a2ba/)
 - [Matheus Francisco da Silva Barbosa](https://www.linkedin.com/in/matheusbarbosa96/)
 - [Mayara Caroline Alves Pereira](https://www.linkedin.com/in/mayaracapereira/)
-- [Vinicius Peixoto Morais](https://linkedin.com/in/vinicius-peixoto)
+- Vinicius Peixoto Morais
 
 
 ---
