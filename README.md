@@ -38,18 +38,4 @@ Apresentar dados de criminalidade de forma clara e acessível, possibilitando:
 - **[Datetime](https://docs.python.org/3/library/datetime.html)** – manipulação de datas  
 - **[os](https://docs.python.org/3/library/os.html)** – manipulação de variáveis de ambiente e arquivos
 
-  
-## 📂 Estrutura do Projeto
-PROJ_DADOS_CRIMINAIS/
-│
-├── app.py # Executa o painel principal
-├── migracaoDados.py # Converte dados Excel e insere no banco
-├── SPDadosCriminais_2024.xlsx # Base de dados SSP (ano 2024)
-├── SPDadosCriminais_2025.xlsx # Base de dados SSP (ano 2025)
-│
-├── database/
-│ └── conexao.py # Script de conexão com o banco
-│
-├── pages/
-│ ├── analise.py # Página de análise geral de dados
-│ └── policia.py # Página com dados voltados aos órgãos públicos
+
